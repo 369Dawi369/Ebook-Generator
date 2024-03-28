@@ -1,4 +1,4 @@
-
+from chatgpt import ChatGPT4
 
 
 
@@ -6,8 +6,8 @@
 
 def main():
 
-    print("cows")
-
+    chat = ChatGPT4()
+    print(chat.key)
 
 
 
