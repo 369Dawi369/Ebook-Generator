@@ -5,3 +5,5 @@ gen
 __pycache__/
 *.pyc
 keys.json
+example.json
+temp.json
