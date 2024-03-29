@@ -4,6 +4,7 @@ out
 gen
 __pycache__/
 *.pyc
-keys.json
-example.json
-temp.json
+jsons/keys.json
+jsons/example.json
+jsons/temp.json
+jsons

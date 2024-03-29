@@ -7,7 +7,7 @@ from openai import OpenAI
 
 class ChatGPT4:
 	def __init__(self):
-		with open("keys.json", 'r') as f:
+		with open("jsons/keys.json", 'r') as f:
 			data: dict = json.load(f)
 			for item in data:
 				if item == "OPENAI_API_KEY":
@@ -22,7 +22,7 @@ class ChatGPT4:
 		self.pages_target = 250
 
 	def generate_json_from_arguments(self, topic: str, temperature: float = 0.7) -> dict:
-		with open("example.json", 'r') as f:
+		with open("jsons/example.json", 'r') as f:
 			book_data = json.load(f)
 
 		prompt = f"""

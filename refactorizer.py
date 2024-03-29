@@ -4,7 +4,7 @@ import json
 class Refactorer:
 	@staticmethod
 	def dump_to_new_json(completion: dict):
-		with open("temp.json", 'w') as f:
+		with open("jsons/temp.json", 'w') as f:
 			json.dump(completion, f, indent=4)
 
 	@staticmethod
